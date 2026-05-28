@@ -4,7 +4,7 @@ import time
 import sys
 import io
 
-# Настройка кодировки для корректного вывода русских букв
+# Настройка кодировки для корректного вывода русских буква
 if sys.platform == 'win32':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
